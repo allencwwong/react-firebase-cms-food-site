@@ -1,8 +1,23 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import { database } from './js/firebase';
 
 class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      data: null
+    };
+  }
+
+  componentDidMount(){
+    console.log('I DID MOUNT!');
+    database.ref().on('value', () =>{
+      console.log('THE DATA HANGED!');
+    });
+  }
+
   render() {
     return (
       <div className="App">
