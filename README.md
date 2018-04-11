@@ -5,5 +5,5 @@ Create simple react-redux cms with options to create new pages , categories , pr
 ## User Stories
 
 - user can login to dashboard
--- user can view amount of order
--- user can see order details
+..- user can view amount of order
+..- user can see order details
