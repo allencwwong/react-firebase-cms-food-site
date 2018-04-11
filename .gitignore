@@ -21,4 +21,4 @@ yarn-debug.log*
 yarn-error.log*
 
 #firebase api
-/src/components/js/firebase.js
+/src/components/js/firebase2.js
