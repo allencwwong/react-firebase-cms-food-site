@@ -5,6 +5,7 @@ Create simple react-redux cms + shopping cart with options to create new pages ,
 ## User Stories
 
 - user can login to dashboard
+  - consist of histogram price , sparkline of day metrics( sales, traffic, order)
   - user can view amount of order
   - user can see order details
 - user can create categories
